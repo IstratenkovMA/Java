@@ -1,0 +1,19 @@
+<web-app xmlns="http://java.sun.com/xml/ns/javaee" version="2.5">
+
+    <listener>
+        <listener-class>
+            controller.HTMLParserContextListener
+        </listener-class>
+    </listener>
+
+    <servlet>
+        <servlet-name>MainPage</servlet-name>
+        <servlet-class>servlets.MainPage</servlet-class>
+    </servlet>
+
+    <servlet-mapping>
+        <servlet-name>MainPage</servlet-name>
+        <url-pattern>/</url-pattern>
+    </servlet-mapping>
+
+</web-app>
