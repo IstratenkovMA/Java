@@ -1,2 +1,1 @@
-# Java
-using for java projects
+# WebCurrencyConverter
